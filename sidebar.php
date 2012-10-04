@@ -3,6 +3,7 @@
 		<img src="images/pazzel-1.jpg" alt="puzzel">
 	</div>
 	<div class="logo">
-		<img src="images/logo.png" class="logo"alt="">
+		<img src="images/logo.png" alt="">
 	</div>
+	<div class="clear"></div>
 </div>

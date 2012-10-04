@@ -9,18 +9,17 @@
 	position: absolute;
 }
 /*-------------Sidebar Part--------------*/
-.sidebar{
+div.sidebar{
 	z-index: 12;
 	top: 0;
 	left: 0;
 }
-div.puzzel{
+div.sidebar div.puzzel{
 
 }
-div.logo{
+div.sidebar div.logo{
 	right: 100px;
 	top:200px;
-	position: relative;
 }
 /*-------------Bottom Part--------------*/
 .bottom{
