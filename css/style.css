@@ -61,7 +61,7 @@ ul.puzzel li.four{
 }
 div.bottom div.logo{
 	float: left;
-	margin-top: 255px;
+	margin-top: 250px;
 }
 div.bottom nav{
 	float: right;
@@ -79,39 +79,51 @@ div.bottom nav ul li.home{
 	width:121px;
 	height: 119px;
 }
+div.bottom nav ul li.home a{
+	margin-top: 11px;
+}
 div.bottom nav ul li.project{
 	background: url(../images/galery.png) no-repeat 0 0;
 	width:107px;
 	height: 106px;
-	margin-top: 14px;
+	margin-top: 8px;
+
+}
+div.bottom nav ul li.project a{
+	margin-top: 6px;
 
 }
 div.bottom nav ul li.marketting{
 	background: url(../images/tablighat.png) no-repeat 0 0;
 	width:100px;
 	height: 98px;
-	margin-top: 21px;
+	margin-top: 12px;
 
+}
+div.bottom nav ul li.marketting a{
+	margin-top: 2px;
 }
 div.bottom nav ul li.learn{
 	background: url(../images/maghalat.png) no-repeat 0 0;
 	width:95px;
 	height: 92px;
-	margin-top: 27px;
+	margin-top: 12px;
 
 }
 div.bottom nav ul li.contact{
-	background: url(../images/tamasbama.png) no-repeat 0 0;
-	width:92px;
-	height: 90px;
-	margin-top: 27px;
+	background: url(../images/tamasbama-.png) no-repeat 0 0;
+	width:88px;
+	height: 88px;
+	margin-top: 11px;
 }
 div.bottom nav ul li a{
 	display: block;
-	padding: 20px;
+	padding: 31px 10px 45px 0;
 	text-decoration: none;
 	color: #2f1515;
 	font-weight: bold;
+	text-align: center;
+	font-size:19px;
 }
 div.bottom nav ul li a:hover{
 
