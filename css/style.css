@@ -33,3 +33,12 @@ div.logo{
 	border-radius: 0 0 0 230px;
 }
 /*-------------Content Part--------------*/
+.content{
+	background: url('../images/cnt-bg.jpg') no-repeat right top;
+	width: 950px;
+	height:600px;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	border-radius: 0 0 0 230px;
+}
