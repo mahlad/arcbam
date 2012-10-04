@@ -1,1 +1,3 @@
-content-page.php
+<div class="content">
+
+</div>
