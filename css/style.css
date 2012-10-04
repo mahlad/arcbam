@@ -63,6 +63,23 @@ div.bottom div.logo{
 	float: left;
 	margin-top: 250px;
 }
+div.bottom nav{
+	float: right;
+	margin-top:360px; 
+}
+div.bottom nav ul{
+
+}
+div.bottom nav ul li{
+	float: right;
+}
+div.bottom nav ul li a{
+	display: block;
+	padding: 20px;
+}
+div.bottom nav ul li a:hover{
+
+}
 /*-------------Content Part--------------*/
 .content{
 	background: url('../images/cnt-bg.jpg') no-repeat right top;
