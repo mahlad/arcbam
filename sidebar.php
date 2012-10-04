@@ -1,9 +1,10 @@
 <div class="sidebar">
-	<div class="puzzel">
-		<img src="images/pazzel-1.jpg" alt="puzzel">
-	</div>
-	<div class="logo">
-		<img src="images/logo.png" alt="">
-	</div>
+	<ul class="puzzel">
+		<li class="one"></li>
+		<li class="tow"></li>
+		<li cLass="three"></li>
+		<li class="four"></li>
+	</ul>
+	
 	<div class="clear"></div>
 </div>
