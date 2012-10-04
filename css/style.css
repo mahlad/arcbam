@@ -14,8 +14,13 @@
 	top: 0;
 	left: 0;
 }
-div.pazzel{
-	
+div.puzzel{
+
+}
+div.logo{
+	right: 100px;
+	top:200px;
+	position: relative;
 }
 /*-------------Bottom Part--------------*/
 
