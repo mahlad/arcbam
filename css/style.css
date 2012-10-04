@@ -23,5 +23,13 @@ div.logo{
 	position: relative;
 }
 /*-------------Bottom Part--------------*/
-
+.bottom{
+	background: url('../images/footer-bg.png') no-repeat center bottom;
+	width: 950px;
+	height:496px;
+	z-index: 11;
+	top:210px;
+	right: 0;
+	border-radius: 0 0 0 230px;
+}
 /*-------------Content Part--------------*/
