@@ -61,21 +61,57 @@ ul.puzzel li.four{
 }
 div.bottom div.logo{
 	float: left;
-	margin-top: 250px;
+	margin-top: 255px;
 }
 div.bottom nav{
 	float: right;
-	margin-top:360px; 
-}
-div.bottom nav ul{
+	margin-top:360px;
 
 }
+div.bottom nav ul{
+	padding: 5px;
+}
 div.bottom nav ul li{
-	float: right;
+	float: left;
+}
+div.bottom nav ul li.home{
+	background: url(../images/asli.png) no-repeat 0 0;
+	width:121px;
+	height: 119px;
+}
+div.bottom nav ul li.project{
+	background: url(../images/galery.png) no-repeat 0 0;
+	width:107px;
+	height: 106px;
+	margin-top: 14px;
+
+}
+div.bottom nav ul li.marketting{
+	background: url(../images/tablighat.png) no-repeat 0 0;
+	width:100px;
+	height: 98px;
+	margin-top: 21px;
+
+}
+div.bottom nav ul li.learn{
+	background: url(../images/maghalat.png) no-repeat 0 0;
+	width:95px;
+	height: 92px;
+	margin-top: 27px;
+
+}
+div.bottom nav ul li.contact{
+	background: url(../images/tamasbama.png) no-repeat 0 0;
+	width:92px;
+	height: 90px;
+	margin-top: 27px;
 }
 div.bottom nav ul li a{
 	display: block;
 	padding: 20px;
+	text-decoration: none;
+	color: #2f1515;
+	font-weight: bold;
 }
 div.bottom nav ul li a:hover{
 
