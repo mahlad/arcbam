@@ -9,7 +9,14 @@
 	position: absolute;
 }
 /*-------------Sidebar Part--------------*/
-
+.sidebar{
+	z-index: 12;
+	top: 0;
+	left: 0;
+}
+div.pazzel{
+	
+}
 /*-------------Bottom Part--------------*/
 
 /*-------------Content Part--------------*/
