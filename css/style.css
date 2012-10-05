@@ -266,6 +266,8 @@ div.bottom nav ul li a:hover{
 	z-index: 10;
 	border-radius: 0 0 0 230px;
 }
-.content img{
+.content div.fade{
+	width: 950px;
+	height: 650px;
 	position: absolute;
 }
