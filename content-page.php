@@ -1,8 +1,14 @@
 <div class="content">
-	<img src="images/fadeloop/design-1.jpg" alt="">
-	<img src="images/fadeloop/design-2.jpg" alt="">
-	<img src="images/fadeloop/design-3.jpg" alt="">
-	<img src="images/fadeloop/design-4.jpg" alt="">
-	<img src="images/fadeloop/design-5.jpg" alt="">
-	<img src="images/fadeloop/design-6.jpg" alt="">
+	<?php 
+		$path='./images/fadeloop';
+		$img_arr=scandir($path);
+		foreach ($img_arr as $imag) {
+			$img_type=explode('.',$imag);
+			$img_type=strtolower(end($img_type));
+			if($img_type=='jpg'){
+			echo "<div class='fade'><img src='$path/$imag' alt='$imag'></div>";
+			}
+		}
+	 ?>
+	
 </div>
