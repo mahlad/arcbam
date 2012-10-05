@@ -1,3 +1,4 @@
+/*-----------tile slideshow on home---------*/
 storyBoard = {
 	puzzel1 : {
 		delay : 0,
@@ -31,4 +32,9 @@ storyBoard = {
 
 $(function(){
 	$.tween(storyBoard);
-})
+});
+/*-----------fadeloop slideshow on home---------*/
+$(function(){
+	$('div.content > div.fade').fadeLoop(1500);
+});
+
