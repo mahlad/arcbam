@@ -257,11 +257,15 @@ div.bottom nav ul li a:hover{
 }
 /*-------------Content Part--------------*/
 .content{
-	background: url('../images/cnt-bg.jpg') no-repeat right top;
+	background:no-repeat right top;
 	width: 950px;
 	height:600px;
+	overflow: hidden;
 	top: 0;
 	right: 0;
 	z-index: 10;
 	border-radius: 0 0 0 230px;
+}
+.content img{
+	position: absolute;
 }
