@@ -45,4 +45,11 @@ $(function(){
 		bcsp_txt=$('div.projects > section div.bigtxt'),
 		bcsp_total=$('div.projects > section div.bigpic > div').length,
 		curentSlide=0;
+		(bcsp_go2slide=function(n){
+			if(n>bcsp_total-1)n=0;
+			bcsp_pic.css({'right':-490*n+'px'});
+			bcsp_txt.css({'right':-490*n+'px'});
+			curentSlide=n;
+			//alert(n);
+		})(0);// set active of first li
 });
