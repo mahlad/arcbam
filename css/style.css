@@ -323,3 +323,17 @@ div.bigtxt span{
 	text-align: center;
 
 }
+div.projects ul{
+	margin: 20px 10px;
+
+}
+div.projects ul li{
+	width: 75px;
+	height: 75px;
+	border: solid #412613;
+	border-width: 5px 0 5px 5px;
+	float: right;
+}
+div.projects ul li:first-child{
+	border-width: 5px;
+}
