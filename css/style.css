@@ -285,3 +285,21 @@ div.projects section{
 	position: relative;
 	overflow: hidden;
 }
+div.bigpic{
+	width: 4000px;
+	position: absolute;
+	height: 300px;
+	right: 0;
+	top: 0;
+	-webkit-transition: right 300ms ease-in-out;
+	-moz-transition: right 300ms ease-in-out;
+	-o-transition: right 300ms ease-in-out;
+}
+div.bigpic > div{
+	width: 490px;
+	height: 300px;
+	float: right;
+	background-size: cover;
+	background-repeat   : no-repeat;
+	background-position : right top;
+}
