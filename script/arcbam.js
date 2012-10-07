@@ -52,4 +52,17 @@ $(function(){
 			curentSlide=n;
 			//alert(n);
 		})(0);// set active of first li
+		nextslide=function(){
+			//alert(1);
+			bcsp_go2slide(curentSlide+1);
+		};
+		var auto=false;
+		(autoplay=bcsp.onmouseout=function(){
+			if(auto) return;
+			auto=setInterval(nextslide,2500);
+		})();
+		stopauto=bcsp.onmouseover=function(){
+			clearInterval(auto);
+			auto=false;
+		};
 });
