@@ -39,3 +39,10 @@ $(function(){
 	$('div.content > div.fade').fadeLoop(1000);
 });
 /*-----------Bottom Content slideshow on projects---------*/
+$(function(){
+	var bcsp=$('div.projects > section'),
+		bcsp_pic=$('div.projects > section div.bigpic'),
+		bcsp_txt=$('div.projects > section div.bigtxt'),
+		bcsp_total=$('div.projects > section div.bigpic > div').length,
+		curentSlide=0;
+});
