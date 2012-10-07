@@ -19,6 +19,15 @@
 				}
 				 ?>
 			</div>
+			<div class="bigtxt">
+				<span>this is text1</span>
+				<span>this is text2</span>
+				<span>this is text3</span>
+				<span>this is text4</span>
+				<span>this is text5</span>
+				<span>this is text6</span>
+				<span>this is text7</span>
+			</div>
 		</section>
 		<ul>
 			<li></li>
