@@ -303,3 +303,23 @@ div.bigpic > div{
 	background-repeat   : no-repeat;
 	background-position : right top;
 }
+div.bigtxt{
+	width: 4000px;
+	position: absolute;
+	height: 50px;
+	right: 0;
+	bottom: 0;
+	-webkit-transition: right 300ms ease-in-out;
+	-moz-transition: right 300ms ease-in-out;
+	-o-transition: right 300ms ease-in-out;
+}
+div.bigtxt span{
+	width: 490px;
+	height: 50px;
+	float: right;
+	background:rgba(0,0,0,0.7) center center;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+
+}
