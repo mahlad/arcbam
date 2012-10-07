@@ -257,7 +257,7 @@ div.bottom nav ul li a:hover{
 }
 /*-------------Content Part--------------*/
 .content{
-	background:no-repeat right top;
+	background:no-repeat right top #fdfdfd;
 	width: 950px;
 	height:600px;
 	overflow: hidden;
@@ -270,4 +270,18 @@ div.bottom nav ul li a:hover{
 	width: 950px;
 	height: 650px;
 	position: absolute;
+}
+/*-------------Projects--------------*/
+div.projects{
+	width: 510px;
+	height:400px;
+	margin:40px 75px 0 0; 
+}
+div.projects section{
+	width:490px;
+	margin: 0 auto;
+	height: 300px;
+	border: 10px solid #412613;
+	position: relative;
+	overflow: hidden;
 }
