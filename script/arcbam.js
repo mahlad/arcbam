@@ -34,7 +34,8 @@ $(function(){
 	$.tween(storyBoard);
 });
 /*-----------fadeloop slideshow on home---------*/
+
 $(function(){
-	$('div.content > div.fade').fadeLoop(1500);
+	$('div.content > div.fade').fadeLoop(1000);
 });
 
