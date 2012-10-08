@@ -324,8 +324,11 @@ div.bigtxt span{
 
 }
 div.projects ul{
-	margin: 20px 10px;
-
+	margin: 20px 0;
+	position: absolute;
+	width: 1000px;
+	height: 85px;
+	right: 85px;
 }
 div.projects ul li{
 	width: 75px;
