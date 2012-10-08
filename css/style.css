@@ -286,7 +286,7 @@ div.projects section.bigpart{
 	overflow: hidden;
 }
 div.bigpic{
-	width: 4000px;
+	width: 5000px;
 	position: absolute;
 	height: 300px;
 	right: 0;
@@ -355,6 +355,7 @@ div.projects div.next{
 	position: absolute;
 	right:20px;
 	top:410px;
+	opacity: 0;
 }
 div.projects div.prev{
 	background: url(../images/arrow.png) no-repeat 0px 0px;
@@ -363,4 +364,5 @@ div.projects div.prev{
 	position: absolute;
 	right:595px;
 	top:410px;
+	opacity: 0;
 }
