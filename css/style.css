@@ -273,11 +273,11 @@ div.bottom nav ul li a:hover{
 }
 /*-------------Projects--------------*/
 div.projects{
-	width: 510px;
+	width: 565px;
 	height:400px;
-	margin:40px 75px 0 0; 
+	margin:40px 40px 0 0; 
 }
-div.projects section{
+div.projects section.bigpart{
 	width:490px;
 	margin: 0 auto;
 	height: 300px;
@@ -323,20 +323,44 @@ div.bigtxt span{
 	text-align: center;
 
 }
-div.projects ul{
+div.projects section.smallpart{
+	width: 565px;
+	height: 85px;
+	position: relative;
+	overflow: hidden;
 	margin: 20px 0;
+}
+section.smallpart ul{
+	
 	position: absolute;
 	width: 1000px;
 	height: 85px;
-	right: 85px;
+	right: 0;
 }
-div.projects ul li{
+section.smallpart ul li{
 	width: 75px;
 	height: 75px;
 	border: solid #412613;
 	border-width: 5px 0 5px 5px;
 	float: right;
 }
-div.projects ul li:first-child{
+section.smallpart ul li:first-child{
 	border-width: 5px;
+}
+
+div.projects div.next{
+	background: url(../images/arrow.png) no-repeat -30px 0;
+	width: 31px;
+	height:30px;
+	position: absolute;
+	right:20px;
+	top:410px;
+}
+div.projects div.prev{
+	background: url(../images/arrow.png) no-repeat 0px 0px;
+	width: 30px;
+	height:30px;
+	position: absolute;
+	right:595px;
+	top:410px;
 }
