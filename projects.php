@@ -29,19 +29,19 @@
 				<span>this is text7</span>
 			</div>
 		</section>
-		<ul>
-			<?php 
-			$small_path='./images/projects/small';
-			$simg_arr=scandir($small_path);
-			foreach ($simg_arr as $simg) {
-				$simg_type=explode('.',$simg);
-				$simg_type=strtolower(end($simg_type));
-				if($simg_type=='jpg'){
-					echo "<li style=\"background-image:url('$small_path/$simg');\"></li>";
+			<ul>
+				<?php 
+				$small_path='./images/projects/small';
+				$simg_arr=scandir($small_path);
+				foreach ($simg_arr as $simg) {
+					$simg_type=explode('.',$simg);
+					$simg_type=strtolower(end($simg_type));
+					if($simg_type=='jpg'){
+						echo "<li style=\"background-image:url('$small_path/$simg');\"></li>";
+					}
 				}
-			}
-			 ?>
-		</ul>
+				 ?>
+			</ul>
 	</div>
 </div>
 <div class="clear"></div>
