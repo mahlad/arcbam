@@ -5,7 +5,7 @@
 ?>
 <div class="content">
 	<div class="projects w13 right">
-		<section>
+		<section class='bigpart'>
 			<div class="bigpic">
 				<?php 
 				$path='./images/projects';
@@ -29,6 +29,7 @@
 				<span>this is text7</span>
 			</div>
 		</section>
+		<section class="smallpart">
 			<ul>
 				<?php 
 				$small_path='./images/projects/small';
@@ -42,6 +43,10 @@
 				}
 				 ?>
 			</ul>
+			
+		</section>
+		<div class="next"></div>
+		<div class="prev"></div>
 	</div>
 </div>
 <div class="clear"></div>
