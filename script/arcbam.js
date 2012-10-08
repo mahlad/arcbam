@@ -41,10 +41,10 @@ $(function(){
 /*-----------Bottom Content slideshow on projects---------*/
 $(function(){
 	var bcsp=$('div.projects > section'),
-		bcsp_pic=$('div.projects > section div.bigpic'),
-		bcsp_txt=$('div.projects > section div.bigtxt'),
+		bcsp_pic=$('div.projects > section.bigpart div.bigpic'),
+		bcsp_txt=$('div.projects > section.bigpart div.bigtxt'),
 		bcsp_spic=$('div.projects > ul > li'),
-		bcsp_total=$('div.projects > section div.bigpic > div').length,
+		bcsp_total=$('div.projects > section.bigpart div.bigpic > div').length,
 		curentSlide=0;
 		(bcsp_go2slide=function(n){
 			if(n>bcsp_total-1)n=0;
