@@ -45,8 +45,8 @@
 			</ul>
 			
 		</section>
-		<div class="next"></div>
-		<div class="prev"></div>
+		<div class="next btn"></div>
+		<div class="prev btn"></div>
 	</div>
 </div>
 <div class="clear"></div>
