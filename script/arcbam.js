@@ -55,7 +55,7 @@ $(function(){
 		})(0);// set active of first li
 
 		//alert(bcsp_spic.length);
-		bcsp_spic.mouseover(function(){
+		bcsp_spic.click(function(){
 			bcsp_go2slide($(this).index());
 		});
 		nextslide=function(){
