@@ -38,17 +38,18 @@ $(function(){
 $(function(){
 	$('div.content > div.fade').fadeLoop(1000);
 });
-/*-----------Bottom Content slideshow on projects---------*/
+/*-----------Bottom Content slideshow on projects for bigpart---------*/
 $(function(){
 	var bcsp=$('div.projects > section.bigpart'),
-		bcsp_pic=$('div.projects section.bigpart div.bigpic'),
+		bcsp_pic=$('div.projects > section.bigpart > div.bigpic'),
 		bcsp_txt=$('div.projects section.bigpart div.bigtxt'),
 		bcsp_total=$('div.projects section.bigpart div.bigpic > div').length,
-		bcsp_smallpart=$('div.projects section.smallpart'),
+		bcsp_smallpart=$('div.projects > section.smallpart'),
 		bcsp_spic=$('div.projects section.smallpart > ul > li'),
 		bcsp_btn=$('div.projects div.btn'),
 		bcsp_prev=$('div.projects div.prev'),
 		bcsp_next=$('div.projects div.next'),
+		total=$('div.projects section.smallpart > ul > li').length,
 		curentSlide=0;
 		(bcsp_go2slide=function(n){
 			if(n>bcsp_total-1)n=0;
@@ -58,16 +59,6 @@ $(function(){
 			//alert(n);
 		})(0);// set active of first li
 
-		//alert(bcsp_spic.length);
-		bcsp_spic.click(function(){
-			bcsp_go2slide($(this).index());
-		});
-		//for next and previw button
-		visible_btn=function(){
-			bcsp_btn.css({'opacity':1});
-		};
-		bcsp_smallpart.mouseover(visible_btn);
-		
 		nextslide=function(){
 			//alert(1);
 			bcsp_go2slide(curentSlide+1);
@@ -86,5 +77,15 @@ $(function(){
 		bcsp.mouseout(autoplay);
 		bcsp.mouseover(stopauto);
 		
+		//button part
+		bcsp_smallpart.mouseover(function(){
+			bcsp_btn.css({opacity:1});
+		});
+		bcsp_smallpart.mouseout(function(){
+			bcsp_btn.css({opacity:0});
+		});
+		bcsp_spic.click(function(){
+			bcsp_go2slide($(this).index());
+		});
 
 });
