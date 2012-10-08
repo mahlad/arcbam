@@ -43,6 +43,7 @@ $(function(){
 	var bcsp=$('div.projects > section'),
 		bcsp_pic=$('div.projects > section div.bigpic'),
 		bcsp_txt=$('div.projects > section div.bigtxt'),
+		bcsp_spic=$('div.projects > ul > li'),
 		bcsp_total=$('div.projects > section div.bigpic > div').length,
 		curentSlide=0;
 		(bcsp_go2slide=function(n){
@@ -52,10 +53,16 @@ $(function(){
 			curentSlide=n;
 			//alert(n);
 		})(0);// set active of first li
+
+		//alert(bcsp_spic.length);
+		bcsp_spic.mouseover(function(){
+			bcsp_go2slide($(this).index());
+		});
 		nextslide=function(){
 			//alert(1);
 			bcsp_go2slide(curentSlide+1);
 		};
+		
 		var auto=false;
 		(autoplay=function(){
 			if(auto) return;
@@ -67,5 +74,7 @@ $(function(){
 		};
 
 		bcsp.mouseout(autoplay);
-		bcsp.mouseover(stopauto());
+		bcsp.mouseover(stopauto);
+		
+
 });
