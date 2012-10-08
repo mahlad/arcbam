@@ -27,6 +27,8 @@
 				<span>this is text5</span>
 				<span>this is text6</span>
 				<span>this is text7</span>
+				<span>this is text8</span>
+				<span>this is text9</span>
 			</div>
 		</section>
 		<section class="smallpart">
