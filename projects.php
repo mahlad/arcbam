@@ -30,12 +30,17 @@
 			</div>
 		</section>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<?php 
+			$small_path='./images/projects/small';
+			$simg_arr=scandir($small_path);
+			foreach ($simg_arr as $simg) {
+				$simg_type=explode('.',$simg);
+				$simg_type=strtolower(end($simg_type));
+				if($simg_type=='jpg'){
+					echo "<li style=\"background-image:url('$small_path/$simg');\"></li>";
+				}
+			}
+			 ?>
 		</ul>
 	</div>
 </div>
