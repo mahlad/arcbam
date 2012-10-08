@@ -45,11 +45,11 @@ $(function(){
 		bcsp_txt=$('div.projects section.bigpart div.bigtxt'),
 		bcsp_total=$('div.projects section.bigpart div.bigpic > div').length,
 		bcsp_smallpart=$('div.projects > section.smallpart'),
-		bcsp_spic=$('div.projects section.smallpart > ul > li'),
+		bcsp_spic=$('div.projects section.smallpart > ul.btn > li'),
 		bcsp_btn=$('div.projects div.btn'),
 		bcsp_prev=$('div.projects div.prev'),
 		bcsp_next=$('div.projects div.next'),
-		total=$('div.projects section.smallpart > ul > li').length,
+		total=$('div.projects section.smallpart > ul.btn > li').length,
 		curentSlide=0;
 		(bcsp_go2slide=function(n){
 			if(n>bcsp_total-1)n=0;
