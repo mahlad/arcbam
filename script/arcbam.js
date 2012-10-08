@@ -57,12 +57,15 @@ $(function(){
 			bcsp_go2slide(curentSlide+1);
 		};
 		var auto=false;
-		(autoplay=bcsp.onmouseout=function(){
+		(autoplay=function(){
 			if(auto) return;
 			auto=setInterval(nextslide,2500);
 		})();
-		stopauto=bcsp.onmouseover=function(){
+		stopauto=function(){
 			clearInterval(auto);
 			auto=false;
 		};
+
+		bcsp.mouseout(autoplay);
+		bcsp.mouseover(stopauto());
 });
