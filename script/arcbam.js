@@ -40,7 +40,7 @@ $(function(){
 });
 /*-----------Bottom Content slideshow on projects---------*/
 $(function(){
-	var bcsp=$('div.projects > section'),
+	var bcsp=$('div.projects > section.bigpart'),
 		bcsp_pic=$('div.projects section.bigpart div.bigpic'),
 		bcsp_txt=$('div.projects section.bigpart div.bigtxt'),
 		bcsp_total=$('div.projects section.bigpart div.bigpic > div').length,
@@ -83,8 +83,8 @@ $(function(){
 			auto=false;
 		};
 
-		// bcsp.mouseout(autoplay);
-		// bcsp.mouseover(stopauto);
+		bcsp.mouseout(autoplay);
+		bcsp.mouseover(stopauto);
 		
 
 });
