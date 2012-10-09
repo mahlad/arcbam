@@ -181,10 +181,9 @@ li.pfour{
 	background: url('../images/footer-bg.png') no-repeat center bottom;
 	width: 950px;
 	height:496px;
-	z-index: 11;
+	z-index: 8;
 	top:210px;
 	right: 0;
-	border-radius: 0 0 0 110px;
 }
 div.bottom div.logo{
 	float: left;
@@ -257,7 +256,7 @@ div.bottom nav ul li a:hover{
 }
 /*-------------Content Part--------------*/
 .content{
-	background:no-repeat right top #fdfdfd;
+	background:no-repeat right top;
 	width: 950px;
 	height:600px;
 	overflow: hidden;
