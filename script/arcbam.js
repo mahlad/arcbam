@@ -78,14 +78,16 @@ $(function(){
 		bcsp.mouseover(stopauto);
 		
 		//button part
-		bcsp_smallpart.mouseover(function(){
+		bcsp_spic.mouseover(function(){
 			bcsp_btn.css({opacity:1});
+			
+			stopauto();
+			bcsp_go2slide($(this).index());
 		});
 		bcsp_smallpart.mouseout(function(){
 			bcsp_btn.css({opacity:0});
+			autoplay();
 		});
-		bcsp_spic.click(function(){
-			bcsp_go2slide($(this).index());
-		});
+		
 
 });
