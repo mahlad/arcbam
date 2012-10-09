@@ -86,11 +86,9 @@ $(function(){
 		};
 		bcsp_next.click(function(){
 			bcsp_next_minpic(curentminpic+1);
-			//if(curentminpic+1)
 		});
 		bcsp_prev.click(function(){
 			bcsp_next_minpic(curentminpic-1);
-			//if(curentminpic+1)
 		});
 		bcsp_smallpart.mouseover(function(){
 			bcsp_btn.css({opacity:1});
