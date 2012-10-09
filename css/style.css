@@ -261,12 +261,12 @@ div.bottom nav ul li a:hover{
 	height: 650px;
 }
 /*-------------Projects--------------*/
-div.projects{
+div.pages{
 	width: 565px;
 	height:auto;
 	margin:40px 40px 0 0; 
 }
-div.projects section.bigpart{
+div.pages section.bigpart{
 	width:490px;
 	margin-top: 0;
 	height: 300px;
@@ -306,7 +306,7 @@ div.bigtxt span{
 	text-align: center;
 
 }
-div.projects section.smallpart{
+div.pages section.smallpart{
 	width: 565px;
 	height: 85px;
 	margin: 20px 0;
