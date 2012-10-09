@@ -347,30 +347,42 @@ section.smallpart div.prev{
 	opacity: 0;
 }
 /*----------------------Mrketting Page------------------*/
-div.mrkt ul.firstrow{
+div.marketting{
+	width: 600px;
+	height:auto;
+	margin:40px 40px 0 0; 
+
+}
+div.marketting ul.firstrow{
 	top: 0;
 	right: 0;
+	z-index: 5;
 
 }
-div.mrkt ul.secondrow{
-	margin-top:60px;
-	right: 125px;
+div.marketting ul.secondrow{
+	top:70px;
+	right: 100px;
+	z-index: 10;
 }
-div.mrkt ul.thirdrow{
+div.marketting ul.thirdrow{
+	right: 0;
+	top:180px;
+	z-index: 5;
+}
+div.marketting ul.fourthrow{
+	top:280px;
+	right: 100px;
+	z-index: 10;
 
 }
-div.mrkt ul.fourthrow{
-	
-
-}
-div.mrkt ul li{
+div.marketting ul li{
 	border-radius: 2px;
 	border: 7px solid #412613;
 	width: 145px;
 	height:115px;
-	margin-right:90px; 
+	margin-right:60px; 
 	background-color: pink;
 }
-div.mrkt ul li:first-child{
+div.marketting ul li:first-child{
 	margin-right: 0;
 }
