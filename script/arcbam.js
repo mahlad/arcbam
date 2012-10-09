@@ -36,7 +36,7 @@ $(function(){
 /*-----------fadeloop slideshow on home---------*/
 
 $(function(){
-	$('div.content > div.fade').fadeLoop(1000);
+	$('div.homecontent > div.fade').fadeLoop(1000);
 });
 /*-----------Bottom Content slideshow on projects for bigpart---------*/
 $(function(){

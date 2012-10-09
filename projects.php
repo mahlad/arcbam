@@ -3,10 +3,10 @@
 	include 'sidebar.php';
 	include 'bottom.php';
 ?>
-<div class="content">
+<div class="content overhidden">
 	<div class="projects w13 right">
-		<section class='bigpart'>
-			<div class="bigpic">
+		<section class='bigpart mlra relative overhidden'>
+			<div class="bigpic absolute">
 				<?php 
 				$path='./images/projects';
 				$img_arr=scandir($path);
@@ -14,26 +14,26 @@
 					$img_type=explode('.',$img);
 					$img_type=strtolower(end($img_type));
 					if($img_type=='jpg')
-					echo "<div style=\"background-image:url('$path/$img');\"></div>";
+					echo "<div class='right' style=\"background-image:url('$path/$img');\"></div>";
 
 				}
 				 ?>
 			</div>
-			<div class="bigtxt">
-				<span>this is text1</span>
-				<span>this is text2</span>
-				<span>this is text3</span>
-				<span>this is text4</span>
-				<span>this is text5</span>
-				<span>this is text6</span>
-				<span>this is text7</span>
-				<span>this is text8</span>
-				<span>this is text9</span>
+			<div class="bigtxt absolute">
+				<span class="right">this is text1</span>
+				<span class="right">this is text2</span>
+				<span class="right">this is text3</span>
+				<span class="right">this is text4</span>
+				<span class="right">this is text5</span>
+				<span class="right">this is text6</span>
+				<span class="right">this is text7</span>
+				<span class="right">this is text8</span>
+				<span class="right">this is text9</span>
 			</div>
-			<div class="clear"></div>
+			<div class="badboy"></div>
 		</section>
-		<section class="smallpart">
-			<ul class="btn">
+		<section class="smallpart relative overhidden">
+			<ul class="btn absolute">
 				<?php 
 				$small_path='./images/projects/small';
 				$simg_arr=scandir($small_path);
@@ -41,18 +41,18 @@
 					$simg_type=explode('.',$simg);
 					$simg_type=strtolower(end($simg_type));
 					if($simg_type=='jpg'){
-						echo "<li style=\"background-image:url('$small_path/$simg');\"></li>";
+						echo "<li class='right' style=\"background-image:url('$small_path/$simg');\"></li>";
 					}
 				}
 				 ?>
 			</ul>
-			<div class="next btn"></div>
-			<div class="prev btn"></div>	
+			<div class="next btn absolute"></div>
+			<div class="prev btn absolute"></div>	
 		</section>
 		
 	</div>
 </div>
-<div class="clear"></div>
+<div class="badboy"></div>
 <?php
 	include 'footer.php';
  ?>

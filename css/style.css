@@ -10,23 +10,9 @@
 }
 /*-------------Sidebar Part--------------*/
 div.sidebar{
-	z-index: 12;
+	z-index: 18;
 	top: 0;
 	left: 0;
-}
-div.sidebar ul.puzzel{
-
-}
-/*div.box1{
-	position: absolute;
-	background: url(../images/puzzel-1.jpg) no-repeat 0 0;
-	width: 98px;
-	height: 433px;
-	top: 0;
-	left: 0;
-}*/
-ul.puzzel li{
-	position: absolute;
 }
 li.pone{
 	background: url(../images/puzzel-1.jpg) no-repeat 0 0;
@@ -181,24 +167,20 @@ li.pfour{
 	background: url('../images/footer-bg.png') no-repeat center bottom;
 	width: 950px;
 	height:496px;
-	z-index: 8;
+	z-index: 10;
 	top:210px;
 	right: 0;
+	border-radius: 0 0 0 180px;
 }
 div.bottom div.logo{
-	float: left;
 	margin-top: 250px;
 }
 div.bottom nav{
-	float: right;
 	margin-top:360px;
 
 }
 div.bottom nav ul{
 	padding: 5px;
-}
-div.bottom nav ul li{
-	float: left;
 }
 div.bottom nav ul li.home{
 	background: url(../images/asli.png) no-repeat 0 0;
@@ -259,16 +241,24 @@ div.bottom nav ul li a:hover{
 	background:no-repeat right top;
 	width: 950px;
 	height:600px;
-	overflow: hidden;
 	top: 0;
 	right: 0;
-	z-index: 10;
-	border-radius: 0 0 0 230px;
+	z-index: 12;
+	border-radius: 0 0 0 180px;
 }
-.content div.fade{
+.homecontent{
+	background:no-repeat right top;
+	width: 950px;
+	height:600px;
+	top: 0;
+	right: 0;
+	z-index: 8;
+	border-radius: 0 0 0 180px;
+
+}
+.homecontent div.fade{
 	width: 950px;
 	height: 650px;
-	position: absolute;
 }
 /*-------------Projects--------------*/
 div.projects{
@@ -278,15 +268,12 @@ div.projects{
 }
 div.projects section.bigpart{
 	width:490px;
-	margin: 0 auto;
+	margin-top: 0;
 	height: 300px;
 	border: 10px solid #412613;
-	position: relative;
-	overflow: hidden;
 }
 div.bigpic{
 	width: 5000px;
-	position: absolute;
 	height: 300px;
 	right: 0;
 	top: 0;
@@ -297,14 +284,12 @@ div.bigpic{
 div.bigpic > div{
 	width: 490px;
 	height: 300px;
-	float: right;
 	background-size: cover;
 	background-repeat   : no-repeat;
 	background-position : right top;
 }
 div.bigtxt{
 	width: 5000px;
-	position: absolute;
 	height: 50px;
 	right: 0;
 	bottom: 0;
@@ -315,7 +300,6 @@ div.bigtxt{
 div.bigtxt span{
 	width: 490px;
 	height: 50px;
-	float: right;
 	background:rgba(0,0,0,0.7) center center;
 	color: #fff;
 	line-height: 50px;
@@ -325,13 +309,10 @@ div.bigtxt span{
 div.projects section.smallpart{
 	width: 565px;
 	height: 85px;
-	position: relative;
-	overflow: hidden;
 	margin: 20px 0;
 }
 section.smallpart ul.btn{
 	
-	position: absolute;
 	width: 1000px;
 	height: 85px;
 	right: 0;
@@ -344,7 +325,6 @@ section.smallpart ul.btn li{
 	height: 75px;
 	border: solid #412613;
 	border-width: 5px 0 5px 5px;
-	float: right;
 }
 section.smallpart ul.btn li:first-child{
 	border-width: 5px;
@@ -354,7 +334,6 @@ section.smallpart div.next{
 	background: url(../images/arrow.png) no-repeat -30px 0;
 	width: 31px;
 	height:30px;
-	position: absolute;
 	right:0px;
 	top:25px;
 	opacity: 0;
@@ -363,7 +342,6 @@ section.smallpart div.prev{
 	background: url(../images/arrow.png) no-repeat 0px 0px;
 	width: 30px;
 	height:30px;
-	position: absolute;
 	right:535px;
 	top:25px;
 	opacity: 0;

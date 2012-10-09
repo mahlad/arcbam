@@ -1,14 +1,14 @@
 <div class="bottom">
-	<div class="logo">
+	<div class="logo left">
 		<img src="images/logo.png" alt="">
 	</div>
-	<nav>
+	<nav class="right">
 		<ul>
-			<li class="home"><a href="./" title="">صفحه اصلی</a> </li>
-			<li class="project"><a href="projects.php" title="">پروژه ها</a> </li>
-			<li class="marketting"><a href="" title="">تبلیغات</a> </li>
-			<li class="learn"><a href="" title="">آموزش</a> </li>
-			<li class="contact"><a href="" title="">تماس با ما</a> </li>
+			<li class="home left"><a href="./" title="">صفحه اصلی</a> </li>
+			<li class="project left"><a href="projects.php" title="">پروژه ها</a> </li>
+			<li class="marketting left"><a href="" title="">تبلیغات</a> </li>
+			<li class="learn left"><a href="" title="">آموزش</a> </li>
+			<li class="contact left"><a href="" title="">تماس با ما</a> </li>
 		</ul>
 	</nav>
 
