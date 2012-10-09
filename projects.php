@@ -4,7 +4,7 @@
 	include 'bottom.php';
 ?>
 <div class="content overhidden">
-	<div class="projects w13 right">
+	<div class="pages right">
 		<section class='bigpart mlra relative overhidden'>
 			<div class="bigpic absolute">
 				<?php 
