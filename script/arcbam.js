@@ -45,12 +45,14 @@ $(function(){
 		bcsp_txt=$('div.projects section.bigpart div.bigtxt'),
 		bcsp_total=$('div.projects section.bigpart div.bigpic > div').length,
 		bcsp_smallpart=$('div.projects > section.smallpart'),
+		bcsp_minpic=$('div.projects > section.smallpart ul'),
 		bcsp_spic=$('div.projects section.smallpart > ul.btn > li'),
 		bcsp_btn=$('div.projects div.btn'),
-		bcsp_prev=$('div.projects div.prev'),
-		bcsp_next=$('div.projects div.next'),
+		bcsp_prev=$('section.smallpart div.prev'),
+		bcsp_next=$('section.smallpart div.next'),
 		total=$('div.projects section.smallpart > ul.btn > li').length,
-		curentSlide=0;
+		curentSlide=0,
+		curentminpic=0;
 		(bcsp_go2slide=function(n){
 			if(n>bcsp_total-1)n=0;
 			bcsp_pic.css({'right':-490*n+'px'});
@@ -78,6 +80,25 @@ $(function(){
 		bcsp.mouseover(stopauto);
 		
 		//button part
+		bcsp_next_minpic=function(m){
+			bcsp_minpic.css({'right':-80*m+'px'});
+			curentminpic=m;	
+		};
+		bcsp_next.click(function(){
+			bcsp_next_minpic(curentminpic+1);
+			//if(curentminpic+1)
+		});
+		bcsp_prev.click(function(){
+			bcsp_next_minpic(curentminpic-1);
+			//if(curentminpic+1)
+		});
+		bcsp_smallpart.mouseover(function(){
+			bcsp_btn.css({opacity:1});
+		});	
+		bcsp_smallpart.mouseout(function(){
+			bcsp_btn.css({opacity:0});
+		});	
+
 		bcsp_spic.mouseover(function(){
 			bcsp_btn.css({opacity:1});
 			
