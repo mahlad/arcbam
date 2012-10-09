@@ -260,7 +260,7 @@ div.bottom nav ul li a:hover{
 	width: 950px;
 	height: 650px;
 }
-/*-------------Projects--------------*/
+/*----------------------Projects Page--------------------*/
 div.pages{
 	width: 565px;
 	height:auto;
@@ -345,4 +345,32 @@ section.smallpart div.prev{
 	right:535px;
 	top:25px;
 	opacity: 0;
+}
+/*----------------------Mrketting Page------------------*/
+div.mrkt ul.firstrow{
+	top: 0;
+	right: 0;
+
+}
+div.mrkt ul.secondrow{
+	margin-top:60px;
+	right: 125px;
+}
+div.mrkt ul.thirdrow{
+
+}
+div.mrkt ul.fourthrow{
+	
+
+}
+div.mrkt ul li{
+	border-radius: 2px;
+	border: 7px solid #412613;
+	width: 145px;
+	height:115px;
+	margin-right:90px; 
+	background-color: pink;
+}
+div.mrkt ul li:first-child{
+	margin-right: 0;
 }
