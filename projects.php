@@ -46,10 +46,10 @@
 				}
 				 ?>
 			</ul>
-			
+			<div class="next btn"></div>
+			<div class="prev btn"></div>	
 		</section>
-		<div class="next btn"></div>
-		<div class="prev btn"></div>
+		
 	</div>
 </div>
 <div class="clear"></div>
