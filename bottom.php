@@ -6,7 +6,7 @@
 		<ul>
 			<li class="home left"><a href="./" title="">صفحه اصلی</a> </li>
 			<li class="project left"><a href="projects.php" title="">پروژه ها</a> </li>
-			<li class="marketting left"><a href="" title="">تبلیغات</a> </li>
+			<li class="marketting left"><a href="marketting.php" title="">تبلیغات</a> </li>
 			<li class="learn left"><a href="" title="">آموزش</a> </li>
 			<li class="contact left"><a href="" title="">تماس با ما</a> </li>
 		</ul>
