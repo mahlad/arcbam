@@ -45,7 +45,7 @@ $(function(){
 		bcsp_txt=$('div.pages section.bigpart div.bigtxt'),
 		bcsp_total=$('div.pages section.bigpart div.bigpic > div').length,
 		bcsp_smallpart=$('div.pages > section.smallpart'),
-		bcsp_minpic=$('div.pages > section.smallpart ul'),
+		bcsp_minpic=$('div.pages > section.smallpart ul.btn'),
 		bcsp_spic=$('div.pages section.smallpart > ul.btn > li'),
 		bcsp_butn=$('div.pages div.butn'),
 		bcsp_prev=$('section.smallpart div.prev'),
@@ -105,13 +105,13 @@ $(function(){
 		});	
 
 		bcsp_spic.mouseover(function(){
-			bcsp_btn.css({opacity:1});
+			bcsp_butn.css({opacity:1});
 			
 			stopauto();
 			bcsp_go2slide($(this).index());
 		});
 		bcsp_smallpart.mouseout(function(){
-			bcsp_btn.css({opacity:0});
+			bcsp_butn.css({opacity:0});
 			autoplay();
 		});
 		
