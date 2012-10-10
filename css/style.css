@@ -351,38 +351,71 @@ div.marketting{
 	width: 600px;
 	height:auto;
 	margin:40px 40px 0 0; 
-
+	
 }
 div.marketting ul.firstrow{
 	top: 0;
 	right: 0;
-	z-index: 5;
 
 }
+div.marketting ul.firstrow li a{
+	z-index: 5;
+}
 div.marketting ul.secondrow{
-	top:70px;
-	right: 100px;
+	top:100px;
+	right: 110px;
+}
+div.marketting ul.secondrow li a{
 	z-index: 10;
 }
 div.marketting ul.thirdrow{
 	right: 0;
-	top:180px;
+	top:210px;
+}
+div.marketting ul.thirdrow li a{
 	z-index: 5;
 }
 div.marketting ul.fourthrow{
-	top:280px;
+	top:310px;
 	right: 100px;
-	z-index: 10;
 
 }
+div.marketting ul.fourthrow li a{
+	z-index: 10;
+}
 div.marketting ul li{
+	margin-right:60px;
+	cursor: pointer;
+
+}
+div.marketting ul li a{
 	border-radius: 2px;
 	border: 7px solid #412613;
 	width: 145px;
 	height:115px;
-	margin-right:60px; 
 	background-color: pink;
+	position: relative;
+	opacity: 0.9;
+	display: block;
+	float: right;
+
+}
+div.marketting ul li:hover a{
+	z-index: 15;
+	opacity: 1;
+	
 }
 div.marketting ul li:first-child{
 	margin-right: 0;
+}
+div.dark{
+	position: fixed;
+	background:rgba(0,0,0,0.8) no-repeat center center;
+	display: none; 
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 30;
 }
