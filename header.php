@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="script/zepto.js"></script>
 	<script type="text/javascript" src="script/tile.js"></script>
 	<script type="text/javascript" src="script/fadeloop.js"></script>
+	<script type="text/javascript" src="script/heavy-box.js"></script>
 	<script type="text/javascript" src="script/arcbam.js"></script>
 	
 </head>
