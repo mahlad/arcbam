@@ -46,8 +46,8 @@
 				}
 				 ?>
 			</ul>
-			<div class="next btn absolute"></div>
-			<div class="prev btn absolute"></div>	
+			<div class="next butn absolute"></div>
+			<div class="prev butn absolute"></div>	
 		</section>
 		
 	</div>
