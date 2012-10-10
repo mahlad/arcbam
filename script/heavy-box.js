@@ -6,7 +6,7 @@ $(function () {
 			'background-image' : 'url(' + $(this).attr('href') + ')'
 		},600).animate({
 			opacity:1
-			},800).click(function(){
+			},600).click(function(){
 			$(this).animate({
 				opacity : 0
 			},600,'ease-out',function(){
