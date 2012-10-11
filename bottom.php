@@ -8,7 +8,7 @@
 			<li class="project left"><a href="projects.php" title="">پروژه ها</a> </li>
 			<li class="marketting left"><a href="marketting.php" title="">تبلیغات</a> </li>
 			<li class="learn left"><a href="" title="">آموزش</a> </li>
-			<li class="contact left"><a href="" title="">تماس با ما</a> </li>
+			<li class="contact left"><a href="contact.php" title="">تماس با ما</a> </li>
 		</ul>
 	</nav>
 
