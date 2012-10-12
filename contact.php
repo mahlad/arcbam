@@ -27,7 +27,7 @@
 	<tr>
 		<td colspan="3" class="peygham"><p>کاربر محترم درصورت تمایل به ارسال پیام و یا سفارش کار، لطفا فرم زیر را تکمیل و ارسال نمایید</p></td>
 	</tr>
-	<form action="#" method="post">
+	<form action="#" method="post" name="user_information">
 		<tr>
 			<td class="cntinfo"><label>نام و نام خانوادگی</label></td>
 			<td colspan="2"><input type="text" name="name"/></td>
