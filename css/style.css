@@ -428,6 +428,10 @@ table.contact{
 	float: right;
 	direction:rtl;
 }
+table.contact tr td p,table.contact tr td label{
+	color: #3f2a16 !important;
+	font-weight: bold;
+}
 table.contact tr td{
 	border: 1px solid;
 	text-align: right;
@@ -472,7 +476,7 @@ td.cntinfo label{
 	float: left;
 }
 td input,td textarea{
-	background-color: #d3aa88 !important;;
+	background-color: #d3aa88 !important;
 }
 td input{
 	width: 155px;
