@@ -424,7 +424,6 @@ table.contact{
 	width: auto;
 	height:auto;
 	margin:40px 30px 0 20px;
-	border: 1px solid;
 	float: right;
 	direction:rtl;
 }
@@ -433,7 +432,6 @@ table.contact tr td p,table.contact tr td label{
 	font-weight: bold;
 }
 table.contact tr td{
-	border: 1px solid;
 	text-align: right;
 }
 td.picowner{
@@ -442,7 +440,6 @@ td.picowner{
 	text-align:left !important;
 }
  table.contact tr td{
-	border: 1px solid;
 	text-align: right;
 }
 td.picowner{
