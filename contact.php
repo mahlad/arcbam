@@ -9,20 +9,20 @@
 		<td  rowspan="4"class="picowner">
 			<img src="images/picofowner.jpg">
 		</td>
-		<td></td>
-		<td></td>
+		<td><p>شماره ثابت:</p></td>
+		<td><p>05116093979</p></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
+		<td><p>شماره همراه:</p></td>
+		<td><p>09158203969</p></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
+		<td><p>ایمیل:</p></td>
+		<td><p>ar_pahlavan@yahoo.com</p></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
+		<td><p>آدرس:</p></td>
+		<td><p>مشهد ، خیابان سید رضی، بین سید رضی 42 و 44 ، پلاک 140، طبقه اول</p></td>
 	</tr>
 	<tr>
 		<td></td>
