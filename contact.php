@@ -6,9 +6,12 @@
 <div class="content">
 <table class="contact">
 	<tr>
-		<td  rowspan="4"class="picowner">
+		<td  rowspan="5"class="picowner">
 			<img src="images/picofowner.jpg">
 		</td>
+		
+	</tr>
+	<tr>
 		<td><p>شماره ثابت:</p></td>
 		<td><p>05116093979</p></td>
 	</tr>
