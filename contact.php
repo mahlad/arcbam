@@ -31,27 +31,21 @@
 		<tr>
 			<td class="cntinfo"><label>نام و نام خانوادگی</label></td>
 			<td colspan="2"><input type="text" name="name"/></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="cntinfo"><label>ایمیل</label></td>
 			<td colspan="2"><input type="text" name="email"/></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="cntinfo"><label>موضوع</label></td>
 			<td colspan="2"><input type="text" name="subject"/></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="cntinfo"><label>متن</label></td>
 			<td colspan="2"><textarea name="contect"></textarea></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td colspan="3" class="submit"><input type="submit" name="submit" value="ارسال"/></td>
-			<td></td>
-			<td></td>
 		</tr>
 	</form>
 </table>
