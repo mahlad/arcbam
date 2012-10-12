@@ -445,15 +445,40 @@ td.picowner{
 	background: url(../images/border-cnt.png) 0 0 no-repeat;
 	padding: 11.5px 12px;
 	text-align:left !important;
+
+}
+td.owninfo1 p{
+	padding: 15px 15px 0 0;
+}
+td.owninfo2 p{
+	padding: 15px 5px 0 0;
 }
 td.peygham p{
 	text-align: right;
+	padding:15px 10px; 
 }
 td.submit input{
 	/*text-align: center !important;*/
 	float: right;
-	margin-right: 30px;
+	margin-right: 160px;
+	width: 65px;
+	height: 30px;
+}
+td.cntinfo{
+	padding: 15px 0 0 10px;
+
 }
 td.cntinfo label{
 	float: left;
+}
+td input,td textarea{
+	background-color: #d3aa88 !important;;
+}
+td input{
+	width: 155px;
+	height: 26px;
+}
+td textarea{
+	width:265px;
+	height: 120px;
 }
