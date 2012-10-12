@@ -456,24 +456,27 @@ td.owninfo2 p{
 }
 td.peygham p{
 	text-align: right;
-	padding:15px 10px; 
+	padding:40px 10px 20px; 
 }
 td.submit input{
 	/*text-align: center !important;*/
 	float: right;
-	margin-right: 160px;
+	margin-right: 139px;
 	width: 65px;
 	height: 30px;
 }
-td.cntinfo{
-	padding: 15px 0 0 10px;
+td.cntinfo1{
+	padding-top: 15px;
 
 }
-td.cntinfo label{
+td.cntinfo1 label{
 	float: left;
 }
 td input,td textarea{
 	background-color: #d3aa88 !important;
+}
+td.cntinfo2{
+	padding-right:15px;
 }
 td input{
 	width: 155px;
