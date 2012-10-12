@@ -439,3 +439,23 @@ td.picowner{
 	padding: 11.5px 12px;
 	text-align:left !important;
 }
+ table.contact tr td{
+	border: 1px solid;
+	text-align: right;
+}
+td.picowner{
+	background: url(../images/border-cnt.png) 0 0 no-repeat;
+	padding: 11.5px 12px;
+	text-align:left !important;
+}
+td.peygham p{
+	text-align: right;
+}
+td.submit input{
+	/*text-align: center !important;*/
+	float: right;
+	margin-right: 30px;
+}
+td.cntinfo label{
+	float: left;
+}
