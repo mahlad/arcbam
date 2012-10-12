@@ -428,3 +428,12 @@ table.contact{
 	float: right;
 	direction:rtl;
 }
+table.contact tr td{
+	border: 1px solid;
+	text-align: right;
+}
+td.picowner{
+	background: url(../images/border-cnt.png) 0 0 no-repeat;
+	padding: 11.5px 12px;
+	text-align:left !important;
+}
