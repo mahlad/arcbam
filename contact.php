@@ -32,23 +32,23 @@
 	</tr>
 	<form action="#" method="post" name="user_information">
 		<tr>
-			<td class="cntinfo"><label>نام و نام خانوادگی</label></td>
-			<td colspan="2"><input type="text" name="name"/></td>
+			<td class="cntinfo1"><label>نام و نام خانوادگی</label></td>
+			<td colspan="2" class="cntinfo2"><input type="text" name="name"/></td>
 		</tr>
 		<tr>
-			<td class="cntinfo"><label>ایمیل</label></td>
-			<td colspan="2"><input type="text" name="email"/></td>
+			<td class="cntinfo1"><label>ایمیل</label></td>
+			<td colspan="2" class="cntinfo2"><input type="text" name="email"/></td>
 		</tr>
 		<tr>
-			<td class="cntinfo"><label>موضوع</label></td>
-			<td colspan="2"><input type="text" name="subject"/></td>
+			<td class="cntinfo1"><label>موضوع</label></td>
+			<td colspan="2" class="cntinfo2"><input type="text" name="subject"/></td>
 		</tr>
 		<tr>
-			<td class="cntinfo"><label>متن</label></td>
-			<td colspan="2"><textarea name="contect"></textarea></td>
+			<td class="cntinfo1"><label>متن</label></td>
+			<td colspan="2" class="cntinfo2"><textarea name="contect"></textarea></td>
 		</tr>
 		<tr>
-			<td colspan="3" class="submit"><input type="submit" name="submit" value="ارسال"/></td>
+			<td colspan="3" class="submit cntinfo1"><input type="submit" name="submit" value="ارسال"/></td>
 		</tr>
 	</form>
 </table>
