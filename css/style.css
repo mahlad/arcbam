@@ -419,3 +419,12 @@ div.dark{
 	opacity: 0;
 	z-index: 30;
 }
+/*----------------------Contact Page--------------------*/
+table.contact{
+	width: auto;
+	height:auto;
+	margin:40px 30px 0 20px;
+	border: 1px solid;
+	float: right;
+	direction:rtl;
+}
