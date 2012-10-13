@@ -515,7 +515,7 @@ div.learning{
 section.part{
 	width:290px;
 	height: 210px;
-	border-bottom: 1px groove  #3F2A16;
+	border-bottom: 1px groove  #D3AA88;
 	margin:5px 5px;
 }
 section.part div.line{
@@ -523,7 +523,7 @@ section.part div.line{
 	height: 190px;
 	margin:0 5px;
 	padding: 5px 15px;
-	border-right: 1px solid;
+	border-right: 1px groove #D3AA88;
 }
 section.right div.line{
 	border-right: 0;
