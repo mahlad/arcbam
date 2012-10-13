@@ -504,3 +504,12 @@ section.part div.pic{
 	height: 80px;
 	margin:10px; 
 }
+section.part p.context{
+	width: 280px;
+	height: 80px;
+	outline: 1px solid yellow;
+	margin-right: 10px;
+	color: #3F2A16 ;
+	font-size:15px;
+	line-height: 20px;	
+}
