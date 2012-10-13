@@ -491,28 +491,33 @@ div.learning{
 	height: 460px;
 	margin: 30px 30px 0 0;
 	overflow-y:scroll;
+	outline: 1px dashed;
+
 }
 section.part{
-	width:300px;
-	height: 230px;
+	width:280px;
+	height: 229px;
+	border-bottom: 1px groove  #3F2A16;
+}
+section.part:first-child{
+	border-right:none;
 }
 section.part div.pic{
 	width: auto;
-	height: 80px;
-	margin:10px; 
+	height: 79px;
+	margin-bottom:10px; 
 }
 section.part p.context{
 	width: 280px;
-	height: 80px;
-	margin-right: 10px;
+	height: 79px;
 	color: #3F2A16 ;
 	font-size:15px;
 	line-height: 20px;	
 }
 section.part a.download{
 	width:85px;
-	height: 30px;
-	margin:10px 0 10px 10px;
+	height: 29px;
+	margin-top:10px;
 	background-color: #D3AA88 ; 
 	line-height: 30px;
 	text-decoration: none;
