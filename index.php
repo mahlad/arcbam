@@ -5,7 +5,6 @@
 	include 'content-page.php';
 ?>
 
-<div class="badboy"></div>
 <?php
 	include 'footer.php';
  ?>

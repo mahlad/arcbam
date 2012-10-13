@@ -3,7 +3,7 @@
 	include 'sidebar.php';
 	include 'bottom.php';
 ?>
-<div class="content overhidden">
+<div class="content">
 	<div class="pages right">
 		<section class='bigpart mlra relative overhidden'>
 			<div class="bigpic absolute">
