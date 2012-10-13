@@ -233,9 +233,8 @@ div.bottom nav ul li a{
 	text-align: center;
 	font-size:19px;
 }
-div.bottom nav ul li a:hover{
-
-}
+/*div.bottom nav ul li:hover{
+}*/
 /*-------------Content Part--------------*/
 .content{
 	background:no-repeat right top;
@@ -367,21 +366,21 @@ div.marketting ul.firstrow{
 	right: 0;
 
 }
-div.marketting ul.firstrow li a{
+div.marketting ul.firstrow li{
 	z-index: 5;
 }
 div.marketting ul.secondrow{
 	top:100px;
 	right: 110px;
 }
-div.marketting ul.secondrow li a{
+div.marketting ul.secondrow li{
 	z-index: 10;
 }
 div.marketting ul.thirdrow{
 	right: 0;
 	top:210px;
 }
-div.marketting ul.thirdrow li a{
+div.marketting ul.thirdrow li{
 	z-index: 5;
 }
 div.marketting ul.fourthrow{
@@ -389,12 +388,15 @@ div.marketting ul.fourthrow{
 	right: 100px;
 
 }
-div.marketting ul.fourthrow li a{
+div.marketting ul.fourthrow li{
 	z-index: 10;
 }
 div.marketting ul li{
 	margin-right:60px;
 	cursor: pointer;
+	-webkit-transition:all 1.5s;
+	position: relative;
+	opacity: 0.9;
 
 }
 div.marketting ul li a{
@@ -403,16 +405,16 @@ div.marketting ul li a{
 	width: 145px;
 	height:115px;
 	background-color: pink;
-	position: relative;
-	opacity: 0.9;
 	display: block;
 	float: right;
 
 }
-div.marketting ul li:hover a{
+div.marketting ul li:hover{
+	-webkit-transform:rotateY(360deg);
 	z-index: 15;
 	opacity: 1;
-	
+
+
 }
 div.marketting ul li:first-child{
 	margin-right: 0;
