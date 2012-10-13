@@ -252,16 +252,18 @@ div.bottom nav ul li a{
 	top: 0;
 	right: 0;
 	z-index: 8;
+	
+}
+.homecontent div.fade{
+	width: 950px;
+	height: 650px;
+}
+.homecontent div.fade img{
 	border-radius: 0 0 0 180px;
 	-moz-border-radius: 0 0 0 180px;
 	-webkit-border-radius: 0 0 0 180px;
 	-ms-border-radius: 0 0 0 180px;
 	-o-border-radius: 0 0 0 180px;
-
-}
-.homecontent div.fade{
-	width: 950px;
-	height: 650px;
 }
 /*----------------------Projects Page--------------------*/
 div.pages{
@@ -323,6 +325,7 @@ section.smallpart ul.btn{
 	width: 1000px;
 	height: 85px;
 	right: 0;
+	transition: right 300ms ease-in-out;
 	-webkit-transition: right 300ms ease-in-out;
 	-moz-transition: right 300ms ease-in-out;
 	-o-transition: right 300ms ease-in-out;
@@ -474,6 +477,11 @@ td.submit input{
 	margin-right: 139px;
 	width: 65px;
 	height: 30px;
+	-webkit-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-o-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-ms-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-moz-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	box-shadow:1px 1px rgba(75, 57, 31, 0.48);
 }
 td.cntinfo1{
 	padding-top: 15px;
@@ -545,6 +553,11 @@ section.part a.download{
 	color:#3F2A16;
 	font-size:15px;
 	border-radius: 2px;
+	-ms-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-moz-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-webkit-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	-o-box-shadow:1px 1px rgba(75, 57, 31, 0.48);
+	box-shadow:1px 1px rgba(75, 57, 31, 0.48);
 
 }
 section.part a.download:hover{
