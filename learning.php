@@ -5,7 +5,24 @@
 ?>
 <div class="content">
 	<div class="learning">
-		
+		<section class="part right">
+			
+		</section>
+		<section class="part right">
+			
+		</section>
+		<section class="part right">
+			
+		</section>
+		<section class="part right">
+			
+		</section>
+		<section class="part right">
+			
+		</section>
+		<section class="part right">
+			
+		</section>
 	</div>	
 
 </div>

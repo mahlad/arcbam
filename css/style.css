@@ -490,6 +490,12 @@ div.learning{
 	width:620px;
 	height: 460px;
 	margin: 40px 30px 0 0;
-	border: 1px solid;
+	outline: 2px solid;
 	float: right;
+	overflow-y:scroll;
+}
+section.part{
+	width:300px;
+	height: 230px;
+	outline:1px solid red;
 }
