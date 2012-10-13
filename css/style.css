@@ -499,3 +499,8 @@ section.part{
 	height: 230px;
 	outline:1px solid red;
 }
+section.part div.pic{
+	width: auto;
+	height: 80px;
+	margin:10px; 
+}
