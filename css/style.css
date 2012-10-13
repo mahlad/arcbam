@@ -459,7 +459,6 @@ td.peygham p{
 	padding:40px 10px 20px; 
 }
 td.submit input{
-	/*text-align: center !important;*/
 	float: right;
 	margin-right: 139px;
 	width: 65px;
@@ -485,4 +484,12 @@ td input{
 td textarea{
 	width:265px;
 	height: 120px;
+}
+/*----------------------Learning Page--------------------*/
+div.learning{
+	width:620px;
+	height: 460px;
+	margin: 40px 30px 0 0;
+	border: 1px solid;
+	float: right;
 }
