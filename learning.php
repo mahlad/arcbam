@@ -4,7 +4,7 @@
 	include 'bottom.php';
 ?>
 <div class="content">
-	<div class="learning">
+	<div class="learning right">
 		<section class="part right">
 			<div class="pic right">
 				<img src="images/learning/maghale.jpg" alt="">
