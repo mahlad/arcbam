@@ -254,6 +254,10 @@ div.bottom nav ul li a:hover{
 	right: 0;
 	z-index: 8;
 	border-radius: 0 0 0 180px;
+	-moz-border-radius: 0 0 0 180px;
+	-webkit-border-radius: 0 0 0 180px;
+	-ms-border-radius: 0 0 0 180px;
+	-o-border-radius: 0 0 0 180px;
 
 }
 .homecontent div.fade{
@@ -280,6 +284,8 @@ div.bigpic{
 	-webkit-transition: right 300ms ease-in-out;
 	-moz-transition: right 300ms ease-in-out;
 	-o-transition: right 300ms ease-in-out;
+	-ms-transition: right 300ms ease-in-out;
+	transition: right 300ms ease-in-out;
 }
 div.bigpic > div{
 	width: 490px;
@@ -296,6 +302,8 @@ div.bigtxt{
 	-webkit-transition: right 300ms ease-in-out;
 	-moz-transition: right 300ms ease-in-out;
 	-o-transition: right 300ms ease-in-out;
+	-ms-transition: right 300ms ease-in-out;
+	transition: right 300ms ease-in-out;
 }
 div.bigtxt span{
 	width: 490px;
@@ -319,6 +327,7 @@ section.smallpart ul.btn{
 	-webkit-transition: right 300ms ease-in-out;
 	-moz-transition: right 300ms ease-in-out;
 	-o-transition: right 300ms ease-in-out;
+	-ms-transition: right 300ms ease-in-out;
 }
 section.smallpart ul.btn li{
 	width: 75px;
