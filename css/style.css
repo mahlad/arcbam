@@ -488,19 +488,30 @@ td textarea{
 /*----------------------Learning Page--------------------*/
 div.learning{
 	width:620px;
-	height: 460px;
+	height: 441px;
 	margin: 30px 30px 0 0;
 	overflow-y:scroll;
 	outline: 1px dashed;
 
 }
 section.part{
-	width:280px;
-	height: 229px;
+	width:290px;
+	height: 210px;
 	border-bottom: 1px groove  #3F2A16;
+	margin:5px 5px;
 }
-section.part:first-child{
-	border-right:none;
+section.part div.line{
+	width: 260px;
+	height: 190px;
+	margin:0 5px;
+	padding: 5px 15px;
+	border-right: 1px solid;
+}
+section.right div.line{
+	border-right: 0;
+}
+section.right:first-child div.line{
+	padding-top: 0;
 }
 section.part div.pic{
 	width: auto;
@@ -508,7 +519,7 @@ section.part div.pic{
 	margin-bottom:10px; 
 }
 section.part p.context{
-	width: 280px;
+	width: 260px;
 	height: 79px;
 	color: #3F2A16 ;
 	font-size:15px;
@@ -517,9 +528,9 @@ section.part p.context{
 section.part a.download{
 	width:85px;
 	height: 29px;
-	margin-top:10px;
+	margin-top:5px;
 	background-color: #D3AA88 ; 
-	line-height: 30px;
+	line-height: 29px;
 	text-decoration: none;
 	color:#3F2A16;
 	font-size:15px;
@@ -529,3 +540,4 @@ section.part a.download{
 section.part a.download:hover{
 	text-decoration:underline;
 }
+
