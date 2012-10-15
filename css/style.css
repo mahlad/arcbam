@@ -414,6 +414,14 @@ div.parentli div.pic,
 div.parentli div.text {
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: all 1.5s;
+	-moz-backface-visibility: hidden;
+	-moz-transition: all 1.5s;
+	-o-backface-visibility: hidden;
+	-o-transition: all 1.5s;
+	-ms-backface-visibility: hidden;
+	-ms-transition: all 1.5s;
+	backface-visibility: hidden;
+	transition: all 1.5s;
 	width      : inherit;
 	height     : inherit;
 	position: absolute;
@@ -426,6 +434,10 @@ div.parentli div.text {
 div.parentli div.text {
 	background-color: #412613;
 	-webkit-transform : rotateY(-180deg);
+	-moz-transform : rotateY(-180deg);
+	-ms-transform : rotateY(-180deg);
+	-o-transform : rotateY(-180deg);
+	transform : rotateY(-180deg);
 
 
 	/* top:100%; */
@@ -445,10 +457,18 @@ div.parentli:hover div{
 }
 div.parentli:hover div.text {
 	-webkit-transform : rotateY(0deg);
+	-ms-transform : rotateY(0deg);
+	-moz-transform : rotateY(0deg);
+	-o-transform : rotateY(0deg);
+	transform : rotateY(0deg);
 }
 
 div.parentli:hover div.pic {
 	-webkit-transform : rotateY(180deg);
+	-moz-transform : rotateY(180deg);
+	-o-transform : rotateY(180deg);
+	-ms-transform : rotateY(180deg);
+	transform : rotateY(180deg);
 }
 div.dark{
 	position: fixed;
