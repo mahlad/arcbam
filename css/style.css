@@ -367,63 +367,88 @@ div.marketting{
 	margin:40px 40px 0 0; 
 	
 }
-div.marketting ul.firstrow{
+div.firstrow{
 	top: 0;
 	right: 0;
 
 }
-div.marketting ul.firstrow li{
+div.firstrow .parentli div{
 	z-index: 5;
 }
-div.marketting ul.secondrow{
+div.secondrow{
 	top:100px;
 	right: 110px;
 }
-div.marketting ul.secondrow li{
+div.secondrow .parentli div{
 	z-index: 10;
 }
-div.marketting ul.thirdrow{
+div.thirdrow{
 	right: 0;
 	top:210px;
 }
-div.marketting ul.thirdrow li{
+div.thirdrow .parentli div{
 	z-index: 5;
 }
-div.marketting ul.fourthrow{
+div.fourthrow{
 	top:310px;
 	right: 100px;
 
 }
-div.marketting ul.fourthrow li{
+div.fourthrow .parentli div{
 	z-index: 10;
 }
-div.marketting ul li{
-	margin-right:60px;
+div.parentli{
+	width      : 145px;
+	height     : 116px;
+	position : relative;
+	color :white;
+	text-align: center;
+	margin-right: 80px;
 	cursor: pointer;
-	-webkit-transition:all 1.5s;
-	position: relative;
-	opacity: 0.9;
 
 }
-div.marketting ul li a{
-	border-radius: 2px;
-	border: 7px solid #412613;
-	width: 145px;
-	height:115px;
-	background-color: pink;
+div.parentli:first-child{
+	margin-right: 0!important;
+}
+div.parentli div.pic,
+div.parentli div.text {
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 1.5s;
+	width      : inherit;
+	height     : inherit;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 10px;
+	border:7px solid  #412613;
+}
+
+div.parentli div.text {
+	background-color: #412613;
+	-webkit-transform : rotateY(-180deg);
+
+
+	/* top:100%; */
+}
+div.parentli div.text a{
 	display: block;
-	float: right;
-
+	text-decoration: none;
+	color: #fff;
+	direction: rtl;
+	line-height: 20px;
+	padding: 27px 23px;
 }
-div.marketting ul li:hover{
-	-webkit-transform:rotateY(360deg);
-	z-index: 15;
-	opacity: 1;
-
-
+div.parentli div.pic {
 }
-div.marketting ul li:first-child{
-	margin-right: 0;
+div.parentli:hover div{
+	z-index:15;
+}
+div.parentli:hover div.text {
+	-webkit-transform : rotateY(0deg);
+}
+
+div.parentli:hover div.pic {
+	-webkit-transform : rotateY(180deg);
 }
 div.dark{
 	position: fixed;
