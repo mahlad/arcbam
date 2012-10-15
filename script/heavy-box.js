@@ -1,6 +1,6 @@
 $(function () {
 	
-	$('div.marketting > ul > li > a').click(function(){
+	$('div.marketting div.parentli .text a').click(function(){
 		$('div.dark').css({
 			display:'block',
 			'background-image' : 'url(' + $(this).attr('href') + ')'
